@@ -36,6 +36,12 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
  sudo apt install git
    ```
 
+  4. Configurar repositorio git (en la carpeta principal del proyecto)
+   ```bash
+   git init
+   git add .
+   git commit -m "Comentario descriptivo"
+   ```
   ## Descripción de los plugins
    
    |Nombre|Imagen|Uso|
@@ -44,5 +50,3 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
    |HTML CSS Support|![Logo de HTML CSS Support](img/HTML_CSS_Support.png)|Facilitar la sintaxis y el autocompletado del CSS|
    |Live Preview|![Logo de Live Preview](img/Live_Preview.png)|Visualizar los HTML formateados|
    |XML|![Logo de XML](img/XML.png)|Facilitar la sintaxis y el autocompletado de XML|
-
-
