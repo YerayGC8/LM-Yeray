@@ -42,6 +42,27 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
    git add .
    git commit -m "Comentario descriptivo"
    ```
+  5. Crear cuenta de [GitHub](https://github.com/)
+  6. Crear repositorio en GitHUb
+  7. Conectar repositorio local con remoto
+   ```bash
+   git remote add origin https://github.com/YerayGC8/LM-Yeray
+   git branch -M main
+   git push -u origin main
+   ```
+  8. Para ir actualizando el repositorio:
+     
+     i. Hacer add y commit en local (**sin init**)
+     
+     ii. Hacer: git push
+  9. Para obtener el repositorio en otro PC:
+   ```bash
+   git clone https://github.com/YerayGC8/LM-Yeray
+   ```
+  10. Para obtener cambios realizados en otro PC (actualizar repositorio local):
+   ```bash
+   git pull
+   ```
   ## Descripción de los plugins
    
    |Nombre|Imagen|Uso|
@@ -50,3 +71,5 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
    |HTML CSS Support|![Logo de HTML CSS Support](img/HTML_CSS_Support.png)|Facilitar la sintaxis y el autocompletado del CSS|
    |Live Preview|![Logo de Live Preview](img/Live_Preview.png)|Visualizar los HTML formateados|
    |XML|![Logo de XML](img/XML.png)|Facilitar la sintaxis y el autocompletado de XML|
+
+   
